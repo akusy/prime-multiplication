@@ -1,0 +1,2 @@
+describe Cli do
+end
