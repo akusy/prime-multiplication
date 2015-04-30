@@ -1,4 +1,4 @@
-class GeneratePrimes
+class PrimeGenerator
 
   def initialize n
     @n = n
