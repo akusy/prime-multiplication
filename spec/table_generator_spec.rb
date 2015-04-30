@@ -5,7 +5,7 @@ describe TableGenerator do
     context "When n > 0 is given" do
 
       it "generates multiplication table of 4 prime numbers" do
-        subject = TableGenerator.new(4)
+        subject = TableGenerator.new(3)
         expectation = [ [nil, 2, 3, 5],
                         [2, 4, 6, 10],
                         [3, 6, 9, 15],
